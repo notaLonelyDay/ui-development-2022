@@ -62,15 +62,20 @@ p {
 }
 
 .features {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style: none;
     vertical-align: middle;
-    margin: 0 0 0 70px;
 }
 
 .features_image {
     margin: 0 20px 0 0;
+}
+
+.features_content {
+    padding: 0 250px 0 0;
 }
 
 .features_head_text {
