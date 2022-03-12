@@ -21,10 +21,11 @@ h3 {
 }
 
 p {
-    font-size: 16px;
-    line-height: 26px;
     color: #616368;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
     margin: 0;
+    line-height: 26px;  
 }
 
 .circle {
@@ -91,4 +92,217 @@ p {
     flex-direction: row;
     align-items: center;
     margin: 0 0 60px 0;
+}
+
+.Maininf {
+    position: relative;
+    height: 764px;
+    width: 100%;
+}
+
+.Information {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 141px;  
+    height: 611px;
+    width: 710px;
+}
+
+.infContainer1_h2, .FAQ_Information1_h2 {
+    color: #242f51;
+    font-family: "Poppins-SemiBold";
+    font-size: 40px;
+    margin: 0;
+    line-height: 50px;
+}
+
+.infContainer1_p {
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+.fa {
+  display: inline-flex !important;
+  width: 25px;
+  height: 21px;
+  align-items: center;
+  justify-content: center;
+  color: #ffcc00;
+}
+
+.fa-plus {
+    margin: 24px 39px 21px 889px;
+    color: #242F51; 
+}
+
+.stars {
+    height: 21px;
+    margin: 0px;
+}
+
+.infContainer2_h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 20px;
+    color: #242f51;
+    margin: 29px 0px 31px 0px;
+}
+
+.infContainer2_p {
+    margin-top: 0px 0px 60px 0px;
+}
+
+.infContainer3 {
+    position: relative;
+    height: 91px;
+    width: 100%;
+    margin-top: 51px;
+}
+
+.infContainer3_h5_1 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 26px;
+    font-family: "Poppins-SemiBold";
+    font-size: 18px;
+    color: #242f51;
+}
+
+.infContainer3_h5_2 {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 57px;
+    font-family: "Poppins-Regular";
+    font-size: 18px;
+    color: #616368;
+}
+
+.button {
+    border: 2px solid #DEE1E6;
+    height: 53px;
+    width: 53px;
+    margin-bottom: 8px;
+    margin-top: 35px;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0);
+}
+
+.arrow {
+    color: #DEE1E6; 
+}
+
+.button:hover .arrow {
+    color: #2500F9;
+}
+
+.button:hover {
+    background-color: rgba(239, 243, 248, 1);
+}
+
+.buttonRight {
+    position: absolute;
+    margin-left: 539px;
+}
+
+.buttonLeft {
+    position: absolute;
+    margin-left: 469px;
+}
+
+.line {
+    height: 26px;
+    border-left: 2px solid rgba(231, 231, 231, 1);
+    width: 2px;
+    position: absolute;
+    margin-top: 51px;
+    margin-bottom: 19px;
+    margin-left: 530px;
+}
+
+.man8 {
+    position: absolute;
+}
+
+.Images {
+    background-image: url(mans.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 626px;
+    width: 823px;
+    margin-top: 141px;
+}
+
+.FAQ {
+    text-align: center;
+    padding-bottom: 111px;
+    padding-top: 173px;
+    position: relative;
+    width: 100%;
+}
+
+.FAQ_Information1 {
+    position: relative;
+    margin: 0px 0px 66px 0px;
+}
+
+.FAQ_Information1_h2 {
+    margin: 0px 0px 0px 522px;
+    width: 580px;
+    height: 43px;
+    text-align: left;
+}
+
+.FAQ_Information1_p {
+    margin: 32px 0px 66px 484px;
+    width: 700px;
+    height: 45px;
+}
+
+.FAQ_MainInf {
+    background-color: #f5f7fa;
+    height: 257px;
+    width: 946px;
+    margin-left: 328px;
+}
+
+.FAQ_MainInf_h3 {
+    position: absolute;
+    margin: 50px 500px 185px 49px;
+    color: #242f51;
+}
+
+.FAQ_MainInf_p {
+    position: absolute;
+    margin: 109px 92px 79px 46px;
+    text-align: left;
+}
+
+.FAQ_Question1, .FAQ_Question2, .FAQ_Question3, .FAQ_Question4 {
+    width: 946px;
+    height: 64px;
+    background-color: #f5f7fa;
+    margin-left: 328px;
+    margin-top: 9px;
+    vertical-align: middle;
+}
+
+.FAQ_Question1_h3, .FAQ_Question2_h3, .FAQ_Question3_h3, .FAQ_Question4_h3 {
+    position: absolute;
+    margin-left: 49px;
+    margin-top: 23px;
+    margin-bottom: 19px;
+    color: #242f51;
+}
+
+@font-face { 
+    font-family: "Poppins-SemiBold"; 
+    src: url("font-awesome-4.7.0/Poppins-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face { 
+    font-family: "Poppins-Regular"; 
+    src: url("font-awesome-4.7.0/Poppins-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
 }
