@@ -1,11 +1,16 @@
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
     font-size: 36px;
     line-height: 46px;
+    font-weight: 600;
     color: #242f51;
     margin: 0 0 25px 0;
 }
@@ -13,14 +18,28 @@ h2 {
 h3 {
     font-size: 20px;
     line-height: 20px;
+    font-weight: 600;
     margin: 0 0 20px 0;
 }
 
 p {
     font-size: 16px;
     line-height: 26px;
+    font-weight: 400;
     color: #616368;
     margin: 0;
+}
+
+.red_text {
+    color: #f55767;
+}
+
+.blue_text {
+    color: #2563ff;
+}
+
+.green_text {
+    color: #40975f;
 }
 
 .circle {
@@ -52,24 +71,27 @@ p {
     background: #e4ffee;
 }
 
-.red_text {
-    color: #f55767;
+.big_blue_button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
+    color: white;
+    background: #2500F9;
+    border: 2px solid #2500F9;
+    border-radius: 100px;
+    transition: all .3s;
 }
 
-.blue_text {
-    color: #2563ff;
-}
-
-.green_text {
-    color: #40975f;
+.big_blue_button:hover {
+    color: #2500F9;
+    background: white;
+    transition: all .3s;
 }
 
 .features {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style: none;
     vertical-align: middle;
 }
 
@@ -97,14 +119,11 @@ p {
 }
 
 .smart {
-    width: 100%;
-    margin: 65px 0 0 0;
-    display: flex;
-    justify-content: center;
-}
-
-.smart_box {
     width: 1030px;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .smart_head{
@@ -137,9 +156,28 @@ p {
     margin: 115px 0 0 0;
 }
 
-.smart_text_box {
-
+.designed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 115px 0 0 0;
 }
+
+.designed_image {
+    margin: 0 110px 0 0;
+}
+
+.designed_text {
+    margin: 0 135px 0 0;
+}
+
+.designed_button {
+    margin: 40px 0 0 0;
+    height: 58px;
+    width: 170px;
+}
+
 .Maininf {
     position: relative;
     height: 764px;
