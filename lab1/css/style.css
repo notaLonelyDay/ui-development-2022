@@ -324,18 +324,22 @@ p {
 
 .footer {
     background: #09142E;
-    font-family: 'Poppins', serif;
     font-weight: bold;
 }
 
+/*todo change font*/
 .logo {
-
+    font-weight: bold;
+    width: 100%;
+    font-size: 30pt;
 }
 
 .logofp {
-
+    color: #FCAE61;
+    display: inline-block;
 }
 
 .logosp {
-
+    color: white;
+    display: inline-block;
 }
