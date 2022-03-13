@@ -94,10 +94,18 @@ p {
     margin: 0 0 60px 0;
 }
 
+.Help {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Maininf {
     position: relative;
-    height: 764px;
-    width: 100%;
+    height: 760px;
+    width: 1391px;
+    margin-left: 0px;
+    margin-right: 209px;
 }
 
 .Information {
@@ -196,6 +204,7 @@ p {
 
 .button:hover {
     background-color: rgba(239, 243, 248, 1);
+    transition: margin-right 2s, red 1s;
 }
 
 .buttonRight {
@@ -232,29 +241,31 @@ p {
 }
 
 .FAQ {
-    text-align: center;
     padding-bottom: 111px;
     padding-top: 173px;
     position: relative;
-    width: 100%;
+    width: 946px;
+    height: 735px;
+    margin-left: 328px;
+    margin-right: 326px;
 }
 
 .FAQ_Information1 {
     position: relative;
     margin: 0px 0px 66px 0px;
+    text-align: center;
 }
 
 .FAQ_Information1_h2 {
-    margin: 0px 0px 0px 522px;
-    width: 580px;
+    margin: 0px 196px 0px 194px;
+    width: 556px;
     height: 43px;
-    text-align: left;
 }
 
 .FAQ_Information1_p {
-    margin: 32px 0px 66px 484px;
-    width: 560px;
-    height: 45px;
+    margin: 32px 158px 66px 156px;
+    width: 632px;
+    height: 40px;
 }
 
 .FAQ_MainInf {
@@ -262,11 +273,14 @@ p {
     height: 257px;
     width: 946px;
     margin-left: 328px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .FAQ_MainInf_h3 {
     position: absolute;
     margin: 50px 500px 185px 49px;
+    width: 410px;
     color: #242f51;
 }
 
@@ -276,16 +290,16 @@ p {
     text-align: left;
 }
 
-.FAQ_Question1, .FAQ_Question2, .FAQ_Question3, .FAQ_Question4 {
+.FAQ_Question {
     width: 946px;
     height: 64px;
     background-color: #f5f7fa;
-    margin-left: 328px;
     margin-top: 9px;
     vertical-align: middle;
+    text-align: left;
 }
 
-.FAQ_Question1_h3, .FAQ_Question2_h3, .FAQ_Question3_h3, .FAQ_Question4_h3 {
+.FAQ_Question_h3 {
     position: absolute;
     margin-left: 49px;
     margin-top: 23px;
