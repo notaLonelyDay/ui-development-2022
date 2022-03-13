@@ -88,6 +88,12 @@ p {
     transition: all .3s;
 }
 
+.long_line {
+    height: 0;
+    width: 100%;
+    border-bottom: 2px solid #F4F4F4;
+}
+
 .features {
     display: flex;
     flex-direction: row;
@@ -161,7 +167,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 115px 0 0 0;
+    margin: 115px 0 70px 0;
 }
 
 .designed_image {
@@ -188,7 +194,7 @@ p {
     position: relative;
     height: 760px;
     width: 1391px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 209px;
 }
 
@@ -352,7 +358,7 @@ p {
     background-color: #f5f7fa;
     height: 257px;
     width: 946px;
-    margin-left: 328px;
+    margin-left: auto;
     margin-right: auto;
 }
 
