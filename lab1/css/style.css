@@ -71,6 +71,14 @@ p {
     background: #e4ffee;
 }
 
+.grey_circle {
+    background: #F4F4FF;
+}
+
+.yellow_circle {
+    background: #FFF6D3;
+}
+
 .big_blue_button {
     font-weight: 700;
     font-size: 16px;
@@ -182,6 +190,30 @@ p {
     margin: 40px 0 0 0;
     height: 58px;
     width: 170px;
+}
+
+.why {
+    margin: 140px 0 0 0;
+    text-align: center;
+}
+
+.why_head {
+    margin: 0 0 25px 0;
+}
+
+.why_row {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.why_row_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 0 0;
 }
 
 .Help {
