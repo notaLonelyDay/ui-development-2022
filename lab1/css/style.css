@@ -1,3 +1,4 @@
+/*region Main Tags*/
 body {
     background-color: white;
     font-family: 'Poppins', sans-serif;
@@ -41,7 +42,8 @@ p {
 .green_text {
     color: #40975f;
 }
-
+/*endregion*/
+/*region Circle*/
 .circle {
     width: 90px;
     height: 90px;
@@ -78,7 +80,8 @@ p {
 .yellow_circle {
     background: #FFF6D3;
 }
-
+/*endregion*/
+/*region Big Blue Button*/
 .big_blue_button {
     font-weight: 700;
     font-size: 16px;
@@ -95,6 +98,7 @@ p {
     background: white;
     transition: all .3s;
 }
+/*endregion*/
 
 .long_line {
     height: 0;
@@ -102,6 +106,7 @@ p {
     border-bottom: 2px solid #F4F4F4;
 }
 
+/*region Features*/
 .features {
     display: flex;
     flex-direction: row;
@@ -109,29 +114,22 @@ p {
     vertical-align: middle;
 }
 
-.features_image {
-    margin: 0 20px 0 0;
+.features_text {
+    padding: 0 250px 0 20px;
 }
 
-.features_content {
-    padding: 0 250px 0 0;
-}
-
-.features_head_text {
-    margin: 0 0 20px 0;
-}
-
-.features_head {
+.features_text_head {
     margin: 45px 0 90px 0;
 }
 
-.features_block {
+.features_text_block {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0 0 60px 0;
 }
-
+/*endregion*/
+/*region Smart*/
 .smart {
     width: 1030px;
     margin-top: 65px;
@@ -169,7 +167,8 @@ p {
     justify-content: space-between;
     margin: 115px 0 0 0;
 }
-
+/*endregion*/
+/*region Designed*/
 .designed {
     display: flex;
     flex-direction: row;
@@ -191,7 +190,8 @@ p {
     height: 58px;
     width: 170px;
 }
-
+/*endregion*/
+/*region Why*/
 .why {
     margin: 140px 0 0 0;
     text-align: center;
@@ -215,7 +215,8 @@ p {
     align-items: center;
     margin: 70px 0 0 0;
 }
-
+/*endregion*/
+/*region Ultimate*/
 .ultimate {
     margin: 190px 0 0 0;
     display: flex;
@@ -241,6 +242,7 @@ p {
     width: 170px;
     margin: 55px 0 0 0;
 }
+/*endregion*/
 
 .Help {
     width: 1600px;
