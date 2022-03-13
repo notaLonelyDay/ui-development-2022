@@ -25,7 +25,7 @@ p {
     font-family: "Poppins-Regular";
     font-size: 16px;
     margin: 0;
-    line-height: 26px;  
+    line-height: 26px;
 }
 
 .circle {
@@ -111,7 +111,7 @@ p {
 .Information {
     position: absolute;
     margin-left: 800px;
-    margin-top: 141px;  
+    margin-top: 141px;
     height: 611px;
     width: 710px;
 }
@@ -130,17 +130,17 @@ p {
 }
 
 .fa {
-  display: inline-flex !important;
-  width: 25px;
-  height: 21px;
-  align-items: center;
-  justify-content: center;
-  color: #ffcc00;
+    display: inline-flex !important;
+    width: 25px;
+    height: 21px;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
 }
 
 .fa-plus {
     margin: 24px 39px 21px 889px;
-    color: #242F51; 
+    color: #242F51;
 }
 
 .stars {
@@ -191,11 +191,11 @@ p {
     margin-bottom: 8px;
     margin-top: 35px;
     border-radius: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .arrow {
-    color: #DEE1E6; 
+    color: #DEE1E6;
 }
 
 .button:hover .arrow {
@@ -307,16 +307,35 @@ p {
     color: #242f51;
 }
 
-@font-face { 
-    font-family: "Poppins-SemiBold"; 
-    src: url("font-awesome-4.7.0/Poppins-SemiBold.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-} 
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("font-awesome-4.7.0/Poppins-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
-@font-face { 
-    font-family: "Poppins-Regular"; 
-    src: url("font-awesome-4.7.0/Poppins-Regular.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("font-awesome-4.7.0/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.footer {
+    background: #09142E;
+    font-family: 'Poppins', serif;
+    font-weight: bold;
+}
+
+.logo {
+
+}
+
+.logofp {
+
+}
+
+.logosp {
+
 }
