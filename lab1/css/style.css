@@ -30,30 +30,37 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 30px 0 0;
 }
 
-#pink_circle {
+.circle_right_margin {
+    margin: 0 35px 0 0 ;
+}
+
+.circle_bottom_margin {
+    margin: 0 0 35px 0;
+}
+
+.pink_circle {
     background: #ffecef;
 }
 
-#light_blue_circle {
+.light_blue_circle {
     background: #f4f4ff;
 }
 
-#light_green_circle {
+.light_green_circle {
     background: #e4ffee;
 }
 
-#red_text {
+.red_text {
     color: #f55767;
 }
 
-#blue_text {
+.blue_text {
     color: #2563ff;
 }
 
-#green_text {
+.green_text {
     color: #40975f;
 }
 
@@ -87,4 +94,49 @@ p {
     flex-direction: row;
     align-items: center;
     margin: 0 0 60px 0;
+}
+
+.smart {
+    width: 100%;
+    margin: 65px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.smart_box {
+    width: 1030px;
+}
+
+.smart_head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.smart_head_name {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 80px 0 0;
+}
+
+.smart_head_line {
+    border-right: 1px solid #B9B9B8;
+    margin-top: 5px;
+    height: 145px;
+    width: 0;
+}
+
+.smart_head_text {
+    margin: 0 0 0 45px;
+}
+
+.smart_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 115px 0 0 0;
+}
+
+.smart_text_box {
+
 }
