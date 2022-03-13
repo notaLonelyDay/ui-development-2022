@@ -350,3 +350,18 @@ p {
     margin: 0;
     padding: 0;
 }
+
+/*todo change font+size*/
+.ft_menu {
+    font-size: 16px;
+    margin-top: 52px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+/*todo change margin*/
+.ft_mn_it {
+    margin-left: 5px;
+    margin-right: 5px;
+}
