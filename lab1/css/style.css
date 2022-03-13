@@ -87,3 +87,127 @@ p {
     align-items: center;
     margin: 0 0 60px 0;
 }
+
+.home{
+  margin: 0 auto;
+  width: 1600px;
+  height: 1002px;  
+  background: url("../img/home-layer-3.png") 0 100% no-repeat;  
+}
+
+.home-header{
+  padding-top: 93px;
+  display: flex;
+}
+
+.AppLab{
+  margin: auto 0;
+  margin-left: 214px;
+  font-family: Poppins;
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #fcae61;
+}
+
+.Lab{
+  font-style: bold;
+  color: #242f51;
+}
+
+.menu{
+  margin: auto 0;
+  width: 461px;
+  justify-content: space-between;
+  margin-left: 366px;
+  display: flex;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 44px;
+  color: #242f51;
+  
+}
+
+.blue-btn{
+  height: 58px;
+  width: 171px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #2500f9;
+  border-radius: 28.5px; 
+}
+
+.home-body{
+  display: flex;
+  background: url("../img/home-layer-1.png") no-repeat,
+              url("../img/home-layer-2.png") 10px 42px no-repeat;
+                   
+}
+
+.home-text{
+  margin-left: 285px;
+  margin-top: 229px;
+}
+
+.edit-choice{
+  display: flex;
+  width: 362px;
+  border-radius: 17.5px;
+  background-color: #e2eaed;
+}
+
+.yellow-circle-small{
+  width: 39px;
+  height: 35px;
+  background-color: #feaa25;
+  border-radius: 17.5px;
+}
+
+.edit-text{
+  margin:auto 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  color: #242f51;
+  
+}
+
+h1{
+  font-family: Poppins;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 600;
+  color: #242f51;
+}
+
+.inc-prod{
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #616368;
+}
+
+.phone{
+  margin-left: 109px;
+}
+
+#try-btn-1{
+  margin-left: 57px;
+}
+
+#try-btn-2{
+  margin-top: 40px;
+}
+
+#watch{
+  margin-left: 27px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #2500f9;
+}
