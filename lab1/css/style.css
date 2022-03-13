@@ -3,9 +3,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* * {
+* {
     border:1px solid red;
-} */
+}
 
 h2 {
     font-size: 36px;
@@ -335,17 +335,20 @@ p {
 .logo {
     font-weight: bold;
     font-size: 30pt;
-    text-align: center;
-    margin: 0;
+
+    margin: auto;
     padding: 0;
+    display: flex;
 }
 
 .logofp {
     color: #FCAE61;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .ft_logosp {
     color: white;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
