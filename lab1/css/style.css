@@ -325,13 +325,19 @@ p {
 .footer {
     background: #09142E;
     font-weight: bold;
+    width: 1600px;
+    margin: auto;
+    padding-top: 115px;
+    padding-bottom: 127px;
 }
 
 /*todo change font+size*/
 .logo {
     font-weight: bold;
-    width: 100%;
     font-size: 30pt;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .logofp {
@@ -339,7 +345,7 @@ p {
     display: inline-block;
 }
 
-.logosp {
+.ft_logosp {
     color: white;
     display: inline-block;
 }
