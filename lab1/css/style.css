@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    border:1px solid red;
+    border: 1px solid red;
 }
 
 h2 {
@@ -335,9 +335,6 @@ p {
 .logo {
     font-weight: bold;
     font-size: 30pt;
-
-    margin: auto;
-    padding: 0;
     display: flex;
     justify-content: center;
 }
