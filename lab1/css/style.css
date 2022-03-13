@@ -156,7 +156,6 @@ p {
 
 .infContainer1_h2, .FAQ_Information1_h2 {
     color: #242f51;
-    font-family: "Poppins-SemiBold";
     font-size: 40px;
     margin: 0;
     line-height: 50px;
@@ -183,18 +182,17 @@ p {
 
 .stars {
     height: 21px;
-    margin: 0px;
+    margin: 0;
 }
 
 .infContainer2_h3 {
-    font-family: "Poppins-SemiBold";
     font-size: 20px;
     color: #242f51;
-    margin: 29px 0px 31px 0px;
+    margin: 29px 0 31px 0;
 }
 
 .infContainer2_p {
-    margin-top: 0px 0px 60px 0px;
+    margin: 0 0 60px 0;
 }
 
 .infContainer3 {
@@ -208,7 +206,6 @@ p {
     position: absolute;
     margin-left: 120px;
     margin-top: 26px;
-    font-family: "Poppins-SemiBold";
     font-size: 18px;
     color: #242f51;
 }
@@ -217,7 +214,6 @@ p {
     position: absolute;
     margin-left: 120px;
     margin-top: 57px;
-    font-family: "Poppins-Regular";
     font-size: 18px;
     color: #616368;
 }
@@ -287,18 +283,18 @@ p {
 
 .FAQ_Information1 {
     position: relative;
-    margin: 0px 0px 66px 0px;
+    margin: 0 0 66px 0;
 }
 
 .FAQ_Information1_h2 {
-    margin: 0px 0px 0px 522px;
+    margin: 0 0 0 522px;
     width: 580px;
     height: 43px;
     text-align: left;
 }
 
 .FAQ_Information1_p {
-    margin: 32px 0px 66px 484px;
+    margin: 32px 0 66px 484px;
     width: 560px;
     height: 45px;
 }
@@ -337,18 +333,4 @@ p {
     margin-top: 23px;
     margin-bottom: 19px;
     color: #242f51;
-}
-
-@font-face {
-    font-family: "Poppins-SemiBold";
-    src: url("font-awesome-4.7.0/Poppins-SemiBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Poppins-Regular";
-    src: url("font-awesome-4.7.0/Poppins-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
 }
