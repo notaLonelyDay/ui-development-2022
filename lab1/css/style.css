@@ -519,7 +519,7 @@ h1 {
 }
 
 .FAQ {
-    margin: 190px 0 0 0;
+    margin: 190px 0 0 0 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
