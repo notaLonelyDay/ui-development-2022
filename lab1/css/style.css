@@ -247,6 +247,15 @@ p {
     color: #242f51;
 }
 
+.AppLabFooter {
+    margin: auto 0;
+    margin-left: 214px;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fcae61;
+    alignment: center;
+}
 .LabFooter {
     color: white;
 }
@@ -586,6 +595,7 @@ h1 {
 
 /*todo change font+size*/
 .ft_menu {
+    font-weight: 400;
     font-size: 16px;
     margin-top: 52px;
     color: white;
@@ -596,8 +606,8 @@ h1 {
 
 /*todo change margin*/
 .ft_mn_it {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 19px;
+    margin-right: 19px;
 }
 
 /*Обнуление*/
