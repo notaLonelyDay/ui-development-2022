@@ -238,8 +238,10 @@ p {
 }
 
 .Lab{
-  /*font-style: bold;*/
   color: #242f51;
+}
+.LabFooter{
+    color: white;
 }
 
 .menu{
