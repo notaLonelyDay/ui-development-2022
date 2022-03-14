@@ -248,13 +248,13 @@ p {
 }
 
 .AppLabFooter {
+    border: solid 1px red;
     margin: auto 0;
-    margin-left: 214px;
     font-size: 30px;
     line-height: 44px;
     font-weight: 700;
     color: #fcae61;
-    alignment: center;
+    text-align: center;
 }
 
 .LabFooter {
