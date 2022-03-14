@@ -231,7 +231,6 @@ p {
 .AppLab{
   margin: auto 0;
   margin-left: 214px;
-  font-family: Poppins;
   font-size: 30px;
   line-height: 44px;
   font-weight: 700;
@@ -239,7 +238,7 @@ p {
 }
 
 .Lab{
-  font-style: bold;
+  /*font-style: bold;*/
   color: #242f51;
 }
 
@@ -249,7 +248,6 @@ p {
   justify-content: space-between;
   margin-left: 366px;
   display: flex;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   color: #242f51;
@@ -259,7 +257,6 @@ p {
 .blue-btn{
   height: 58px;
   width: 171px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 700;
@@ -296,7 +293,6 @@ p {
 
 .edit-text{
   margin:auto 0;
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
   color: #242f51;
@@ -304,7 +300,6 @@ p {
 }
 
 h1{
-  font-family: Poppins;
   font-size: 60px;
   line-height: 75px;
   font-weight: 600;
@@ -312,7 +307,6 @@ h1{
 }
 
 .inc-prod{
-  font-family: Poppins;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -333,18 +327,13 @@ h1{
 
 #watch{
   margin-left: 27px;
-  font-family: Poppins;
   font-size: 16px;
   line-height: 44px;
   font-weight: 400;
   color: #2500f9;
 }
 
-.Help {
-    width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 /*endregion*/
 /*region Ultimate*/
 .ultimate {
@@ -412,7 +401,6 @@ h1{
 }
 
 .fa-plus {
-    margin: 24px 39px 21px 889px;
     color: #242F51;
 }
 
@@ -511,69 +499,49 @@ h1{
 }
 
 .FAQ {
-    padding-bottom: 111px;
-    padding-top: 173px;
-    position: relative;
-    width: 946px;
-    height: 735px;
-    margin-left: 328px;
-    margin-right: 326px;
+    margin: 190px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.FAQ_Information1 {
-    position: relative;
-    margin: 0 0 66px 0;
+.FAQ-head {
     text-align: center;
+    margin: 0 0 65px 0;
 }
 
-.FAQ_Information1_h2 {
-    margin: 0 196px 0 194px;
-    width: 556px;
-    height: 43px;
+.FAQ-head-name {
+    font-size: 40px;
+    line-height: 58px;
 }
 
-.FAQ_Information1_p {
-    margin: 32px 158px 66px 156px;
-    width: 632px;
-    height: 40px;
-}
-
-.FAQ_MainInf {
+.FAQ-big-block {
     background-color: #f5f7fa;
-    height: 257px;
-    width: 946px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 255px;
+    width: 945px;
+    padding: 50px 0 0 50px;
 }
 
-.FAQ_MainInf_h3 {
-    position: absolute;
-    margin: 50px 500px 185px 49px;
-    width: 410px;
+.FAQ-big-block-name {
     color: #242f51;
+    margin: 0 0 35px 0;
 }
 
-.FAQ_MainInf_p {
-    position: absolute;
-    margin: 109px 92px 79px 46px;
-    text-align: left;
-}
-
-.FAQ_Question {
-    width: 946px;
-    height: 64px;
+.FAQ-block {
     background-color: #f5f7fa;
-    margin-top: 9px;
-    vertical-align: middle;
-    text-align: left;
+    height: 65px;
+    width: 945px;
+    padding: 0 40px 0 50px;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.FAQ_Question_h3 {
-    position: absolute;
-    margin-left: 49px;
-    margin-top: 23px;
-    margin-bottom: 19px;
-    color: #242f51;
+.FAQ-block-text {
+    font-weight: 400;
+    margin: 0;
 }
 
 .footer {
@@ -651,18 +619,18 @@ aside {
   display: block;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  font-weight: 400;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
+/*html,*/
+/*body {*/
+/*  height: 100%;*/
+/*  width: 100%;*/
+/*  font-size: 100%;*/
+/*  font-weight: 400;*/
+/*  line-height: 1;*/
+/*  font-size: 14px;*/
+/*  -ms-text-size-adjust: 100%;*/
+/*  -moz-text-size-adjust: 100%;*/
+/*  -webkit-text-size-adjust: 100%;*/
+/*}*/
 
 input,
 button,
@@ -709,9 +677,6 @@ img {
 
 /*--------------------*/
 
-body {
-  font-family: Poppins;
-}
 
 .wrapper {
   min-height: 100%;
@@ -804,8 +769,8 @@ body {
   width: 317px;
   height: 554px;
   background-color: #ffffff;
-  -webkit-box-shadow: 4px 55px 62px 0px rgba(144, 163, 177, 0.18);
-          box-shadow: 4px 55px 62px 0px rgba(144, 163, 177, 0.18);
+  -webkit-box-shadow: 4px 55px 62px 0 rgba(144, 163, 177, 0.18);
+          box-shadow: 4px 55px 62px 0 rgba(144, 163, 177, 0.18);
   border-radius: 9px;
   display: -webkit-box;
   display: -ms-flexbox;
