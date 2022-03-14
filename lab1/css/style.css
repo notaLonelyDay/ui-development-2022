@@ -420,6 +420,22 @@ h1 {
     color: #ffcc00;
 }
 
+.fa1 {
+    display: inline-flex !important;
+    width: 25px;
+    height: 21px;
+    align-items: center;
+    justify-content: center;
+    color: #ffcc00;
+}
+
+.ci{
+    color: #273043;
+    width: 32px;
+    height: 32px;
+}
+
+
 .fa-plus {
     color: #242F51;
 }
@@ -594,12 +610,12 @@ h1 {
     padding: 0;
 }
 
-.centered_list{
+.centered_list {
     display: flex;
     justify-content: center;
 }
 
-.share_icons{
+.share_icons {
     margin-top: 51px;
 }
 
