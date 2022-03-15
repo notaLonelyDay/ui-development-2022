@@ -100,7 +100,7 @@ p {
     background: white;
 }
 
-.pink-button {
+.pink-button1 {
     color: white;
     font-size: 16px;
     line-height: 26px;
@@ -113,7 +113,7 @@ p {
     transition: .5s;
 }
 
-.pink-button:hover {
+.pink-button:1hover {
     background-position: right;
 }
 
