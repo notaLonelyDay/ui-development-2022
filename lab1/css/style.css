@@ -83,7 +83,7 @@ p {
 }
 
 /*endregion*/
-/*region Big Blue Button*/
+/*region Buttons*/
 .big_blue_button {
     font-weight: 700;
     font-size: 16px;
@@ -92,13 +92,29 @@ p {
     background: #2500F9;
     border: 2px solid #2500F9;
     border-radius: 100px;
-    transition: all .3s;
+    transition: .5s;
 }
 
 .big_blue_button:hover {
     color: #2500F9;
     background: white;
-    transition: all .3s;
+}
+
+.pink-button {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    height: 50px;
+    width: 215px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #E8A683, #FF5F82, #E8A683);
+    background-size: 200%;
+    transition: .5s;
+}
+
+.pink-button:hover {
+    background-position: right;
 }
 
 /*endregion*/
@@ -115,6 +131,7 @@ p {
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    margin: 150px 0 0 0;
 }
 
 .features_text {
