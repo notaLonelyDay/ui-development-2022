@@ -463,8 +463,15 @@ h1 {
 .ci {
     margin-right: 10px;
     margin-left: 10px;
-    color: #273043;
+    color: #ffffff;
+    opacity: 0.21;
     font-size: 32px !important;
+    transition: all .3s;
+}
+
+.ci:hover {
+    opacity: 1;
+    transition: all .3s;
 }
 
 .fa-plus {
@@ -953,4 +960,13 @@ img {
 
 .under-btn {
     text-align: center;
+}
+
+
+
+.copyright{
+    margin-top: 91px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.21;
 }
