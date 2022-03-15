@@ -104,7 +104,7 @@ p {
     color: white;
     font-size: 16px;
     line-height: 26px;
-    font-weight: 600;
+    font-weight: 400;
     height: 50px;
     width: 215px;
     border-radius: 20px;
@@ -140,7 +140,7 @@ p {
 
 .features-image-button {
     position: absolute;
-    transform: rotate(-14.5deg);
+    transform: rotate(-14.3deg);
     left: 280px;
     top: 648px;
 }
@@ -362,6 +362,13 @@ h1 {
 
 .phone {
     margin-left: 109px;
+    position: relative;
+}
+
+.phone-button {
+    position: absolute;
+    left: 110px;
+    top: 650px;
 }
 
 #try-btn-1 {
