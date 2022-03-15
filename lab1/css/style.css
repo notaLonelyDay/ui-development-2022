@@ -427,7 +427,7 @@ h1 {
 }
 
 .Reviews-images {
-    background-image: url(mans.png);
+    background-image: url(../img/mans.png);
     height: 630px;
     width: 825px;
     margin: 30px 0 0 0;
@@ -590,7 +590,7 @@ h1 {
     width: 1380px;
     height: 415px;
     text-align: left;
-    background-image: url("download_background.png");
+    background-image: url("../img/download_background.png");
     background-repeat: no-repeat;
     background-position: right top;
     margin: 0 0 0 230px;
