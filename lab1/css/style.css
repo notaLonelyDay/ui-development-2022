@@ -100,7 +100,7 @@ p {
     background: white;
 }
 
-.pink-button1 {
+.pink-button {
     color: white;
     font-size: 16px;
     line-height: 26px;
@@ -113,7 +113,7 @@ p {
     transition: .5s;
 }
 
-.pink-button:1hover {
+.pink-button:hover {
     background-position: right;
 }
 
@@ -418,32 +418,37 @@ h1 {
 
 /*endregion*/
 
-.Maininf {
-    position: relative;
-    height: 760px;
-    width: 1391px;
-    margin-left: 0;
-    margin-right: 209px;
+.Reviews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 140px 0 0 0;
+    width: 1600px;
 }
 
-.Information {
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 141px;
-    height: 611px;
-    width: 710px;
+.Reviews-images {
+    background-image: url(mans.png);
+    height: 630px;
+    width: 825px;
+    margin: 30px 0 0 0;
 }
 
-.infContainer1_h2, .FAQ_Information1_h2 {
-    color: #242f51;
+.Reviews-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 200px 0 0;
+    width: 600px;
+}
+
+.Reviews-text-block-head {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 45px 0;
+}
+
+.Reviews-text-block-head-name{
     font-size: 40px;
-    margin: 0;
-    line-height: 50px;
-}
-
-.infContainer1_p {
-    margin-top: 28px;
-    margin-bottom: 43px;
 }
 
 .fa {
@@ -455,122 +460,86 @@ h1 {
     color: #ffcc00;
 }
 
-.fa1 {
-    display: inline-flex !important;
-    width: 25px;
-    height: 21px;
-    align-items: center;
-    justify-content: center;
-    color: #ffcc00;
-}
-
-.ci{
-    color: #273043;
-    width: 32px;
-    height: 32px;
-}
-
-
 .fa-plus {
     color: #242F51;
 }
 
-.stars {
-    height: 21px;
-    margin: 0;
+.Reviews-text-block-inf{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 50px 0;
 }
 
-.infContainer2_h3 {
-    font-size: 20px;
-    color: #242f51;
-    margin: 29px 0 31px 0;
+.Reviews-text-block-inf-name {
+    color: #242F51;
+    margin: 0 0 25px 0;
 }
 
-.infContainer2_p {
-    margin: 0 0 60px 0;
+.Reviews-text-block-person {
+    display: flex;
+    flex-direction: row;
 }
 
-.infContainer3 {
-    position: relative;
-    height: 91px;
-    width: 100%;
-    margin-top: 51px;
+.Reviews-text-block-person-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 185px 10px 30px;
 }
 
-.infContainer3_h5_1 {
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 26px;
+.Reviews-text-block-person-container-name {
+    color: #242F51;
     font-size: 18px;
-    color: #242f51;
 }
 
-.infContainer3_h5_2 {
-    position: absolute;
-    margin-left: 120px;
-    margin-top: 57px;
-    font-size: 18px;
+.Reviews-text-block-person-container-position {
     color: #616368;
+    font-size: 18px;
 }
 
-.button {
+.Reviews-text-block-person-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 50px;
+    margin: 25px 0 0 0;
+}
+
+.Reviews-text-block-person-button {
     border: 2px solid #DEE1E6;
-    height: 53px;
-    width: 53px;
-    margin-bottom: 8px;
-    margin-top: 35px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0);
+    transition: all .3s;
 }
 
-.arrow {
+.Reviews-text-block-person-button-arrow {
     color: #DEE1E6;
 }
 
-.button:hover .arrow {
-    color: #2500F9;
-}
-
-.button:hover {
-    background-color: rgba(239, 243, 248, 1);
-    transition: margin-right 2s, red 1s;
-}
-
-.buttonRight {
-    position: absolute;
-    margin-left: 539px;
-}
-
-.buttonLeft {
-    position: absolute;
-    margin-left: 469px;
-}
-
-.line {
+.Reviews-text-block-person-buttons-line {
     height: 26px;
     border-left: 2px solid rgba(231, 231, 231, 1);
     width: 2px;
-    position: absolute;
-    margin-top: 51px;
-    margin-bottom: 19px;
-    margin-left: 530px;
+    margin: 15px 8px 15px 8px;
+}
+.Reviews-text-block-person-button:hover .Reviews-text-block-person-button-arrow {
+    color: #2500F9;
+    transition: all .3s;
 }
 
-.man8 {
-    position: absolute;
+.Reviews-text-block-person-button:hover {
+    background-color: rgba(239, 243, 248, 1);
+    transition: all .3s;
 }
-
-.Images {
-    background-image: url(mans.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 626px;
-    width: 823px;
-    margin-top: 141px;
-}
+/*.ci{
+    color: #273043;
+    width: 32px;
+    height: 32px;
+}*/
 
 .FAQ {
-    margin: 190px 0 0 0;
+    margin: 190px 0 130px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -613,6 +582,37 @@ h1 {
 .FAQ-block-text {
     font-weight: 400;
     margin: 0;
+}
+
+.Download {
+    display: flex;
+    flex-direction: column;
+    width: 1380px;
+    height: 415px;
+    text-align: left;
+    background-image: url("download_background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: 0 0 0 230px;
+}
+
+.Download-head {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 50px 0;
+}
+
+.Download-head-name {
+    font-size: 48px;
+}
+
+.Download-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.Download-buttons-GooglePlay {
+    margin: 0 30px 0 5px;
 }
 
 .footer {
