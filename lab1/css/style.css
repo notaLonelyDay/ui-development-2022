@@ -447,7 +447,7 @@ h1 {
     margin: 0 0 45px 0;
 }
 
-.Reviews-text-block-head-name{
+.Reviews-text-block-head-name {
     font-size: 40px;
 }
 
@@ -460,11 +460,18 @@ h1 {
     color: #ffcc00;
 }
 
+.ci {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #273043;
+    font-size: 32px !important;
+}
+
 .fa-plus {
     color: #242F51;
 }
 
-.Reviews-text-block-inf{
+.Reviews-text-block-inf {
     display: flex;
     flex-direction: column;
     margin: 30px 0 50px 0;
@@ -496,7 +503,7 @@ h1 {
     font-size: 18px;
 }
 
-.Reviews-text-block-person-buttons{
+.Reviews-text-block-person-buttons {
     display: flex;
     flex-direction: row;
     width: 120px;
@@ -523,6 +530,7 @@ h1 {
     width: 2px;
     margin: 15px 8px 15px 8px;
 }
+
 .Reviews-text-block-person-button:hover .Reviews-text-block-person-button-arrow {
     color: #2500F9;
     transition: all .3s;
@@ -532,6 +540,7 @@ h1 {
     background-color: rgba(239, 243, 248, 1);
     transition: all .3s;
 }
+
 /*.ci{
     color: #273043;
     width: 32px;
