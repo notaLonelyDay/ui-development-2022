@@ -332,6 +332,7 @@ p {
     display: flex;
     background: url("../img/home-layer-1.png") no-repeat,
     url("../img/home-layer-2.png") 10px 42px no-repeat;
+    margin-top: 19px;
 }
 
 .home-text {
@@ -351,10 +352,12 @@ p {
     height: 35px;
     background-color: #feaa25;
     border-radius: 17.5px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .edit-text {
-    margin: auto 0;
+    margin: auto 0 auto 9px;
     font-size: 18px;
 }
 
@@ -365,7 +368,12 @@ h1 {
     color: #242f51;
 }
 
+.best-app{
+    margin-top: 24px;
+}
+
 .inc-prod {
+    margin-top: 26px;
     font-size: 18px;
     line-height: 28px;
     color: #616368;
