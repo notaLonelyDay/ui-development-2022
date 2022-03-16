@@ -758,11 +758,10 @@ img {
 
 .pricing {
     line-height: 1;
-    margin: 0 auto;
     width: 1600px;
     display: flex;
     flex-direction: column;
-    padding-top: 173px;
+    margin: 173px auto 0;
     align-items: center;
 }
 
