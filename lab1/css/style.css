@@ -117,6 +117,32 @@ p {
     background-position: right;
 }
 
+.link {
+    position: relative;
+    transition: all .3s;
+}
+
+.link:hover {
+    color: #2500f9;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    height: 2px;
+    transition: all .5s;
+}
+
+.link:hover::after {
+    background: #2500f9;
+    width: 100%;
+    left: 0;
+}
+
 /*endregion*/
 
 .long_line {
