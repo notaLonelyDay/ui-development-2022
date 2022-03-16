@@ -300,15 +300,9 @@ p {
 
 }
 
-.blue-btn {
-    height: 58px;
-    width: 171px;
-    font-size: 16px;
-    line-height: 44px;
-    font-weight: 700;
-    color: #ffffff;
-    background-color: #2500f9;
-    border-radius: 28.5px;
+.home-button {
+    height: 57px;
+    width: 170px;
 }
 
 .home-body {
@@ -717,19 +711,6 @@ aside {
     display: block;
 }
 
-/*html,*/
-/*body {*/
-/*  height: 100%;*/
-/*  width: 100%;*/
-/*  font-size: 100%;*/
-/*  font-weight: 400;*/
-/*  line-height: 1;*/
-/*  font-size: 14px;*/
-/*  -ms-text-size-adjust: 100%;*/
-/*  -moz-text-size-adjust: 100%;*/
-/*  -webkit-text-size-adjust: 100%;*/
-/*}*/
-
 input,
 button,
 textarea {
@@ -787,6 +768,7 @@ img {
 }
 
 .container {
+    line-height: 1;
     margin: 0 auto;
     width: 1600px;
     display: -webkit-box;
@@ -945,16 +927,7 @@ img {
 .body-of-card__btn {
     width: 210px;
     height: 56px;
-    background-color: #2500f9;
-    border-radius: 28px;
     margin-bottom: 30px;
-}
-
-.text-of-btn {
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #ffffff;
 }
 
 .under-btn {
