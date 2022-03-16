@@ -331,6 +331,11 @@ p {
     border-radius: 17.5px;
 }
 
+.menu-item:hover{
+    text-decoration: underline;
+    color: #2500f9;
+}
+
 .edit-text {
     margin: auto 0;
     font-size: 18px;
@@ -380,6 +385,9 @@ h1 {
     color: #2500f9;
 }
 
+#watch:hover{
+    text-decoration: underline;
+}
 
 /*endregion*/
 /*region Ultimate*/
