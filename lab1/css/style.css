@@ -663,7 +663,6 @@ h1 {
     padding-bottom: 127px;
 }
 
-/*todo change font+size*/
 .logo {
     font-weight: bold;
     font-size: 30pt;
@@ -692,7 +691,7 @@ h1 {
     margin-top: 51px;
 }
 
-/*todo change font+size*/
+
 .ft_menu {
     font-weight: 400;
     font-size: 16px;
@@ -703,11 +702,6 @@ h1 {
     margin-right: 5px;
 }
 
-/*todo change margin*/
-.ft_mn_it {
-    margin-left: 19px;
-    margin-right: 19px;
-}
 
 /*Обнуление*/
 * {
@@ -917,4 +911,40 @@ img {
     font-weight: 400;
     color: #ffffff;
     opacity: 0.21;
+}
+
+
+
+.ft_mn_it {
+    color: white;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+
+.footer_link {
+    position: relative;
+    transition: all .3s;
+}
+
+.footer_link:hover {
+    color: white;
+}
+
+.footer_link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    height: 2px;
+    transition: all .5s;
+    opacity: 0.25;
+}
+
+.footer_link:hover::after {
+    background: white;
+    width: 100%;
+    left: 0;
 }
