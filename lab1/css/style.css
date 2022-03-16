@@ -354,6 +354,9 @@ p {
     border-radius: 17.5px;
     text-align: center;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edit-text {
