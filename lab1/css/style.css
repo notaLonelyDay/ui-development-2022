@@ -764,31 +764,13 @@ img {
 /*--------------------*/
 
 
-.wrapper {
-    min-height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.container {
+.pricing {
     line-height: 1;
     margin: 0 auto;
     width: 1600px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 173px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -818,7 +800,6 @@ img {
     height: 61px;
     border: 2px solid #ebebeb;
     border-radius: 28.5px;
-    font-size: 16px;
     line-height: 44px;
 }
 
@@ -842,12 +823,7 @@ img {
 
 .cards {
     margin-bottom: 104px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
     color: #999ca5;
 }
@@ -856,18 +832,10 @@ img {
     width: 317px;
     height: 554px;
     background-color: #ffffff;
-    -webkit-box-shadow: 4px 55px 62px 0 rgba(144, 163, 177, 0.18);
     box-shadow: 4px 55px 62px 0 rgba(144, 163, 177, 0.18);
     border-radius: 9px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -877,18 +845,13 @@ img {
     height: 605px;
     border: 2px solid #ebebeb;
     border-radius: 9px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
 .head {
     text-align: center;
-    background-image: url("../img/rectangle_5_copy_3_1111.png");
+    background-image: url("../img/pricing-layer.png");
     padding: 70px 0 32px;
     width: 100%;
 }
