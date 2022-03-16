@@ -934,16 +934,19 @@ img {
     color: white;
 }
 
+.footer_link_color {
+    color: white;
+}
+
 .footer_link::after {
     content: "";
     position: absolute;
     width: 0;
-    top: 70%;
+    top: 90%;
     left: 50%;
     text-align: center;
-    height: 2px;
+    height: 1.5px;
     transition: all .5s;
-    opacity: 0.25;
 }
 
 .footer_link:hover::after {
