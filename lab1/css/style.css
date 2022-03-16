@@ -331,7 +331,7 @@ p {
     border-radius: 17.5px;
 }
 
-.menu-item:hover{
+.menu-item:hover {
     text-decoration: underline;
     color: #2500f9;
 }
@@ -379,13 +379,13 @@ h1 {
 
 #watch {
     margin-left: 27px;
-    font-size: 16px;
-    line-height: 44px;
-    font-weight: 400;
+}
+
+.blue-link {
     color: #2500f9;
 }
 
-#watch:hover{
+.blue-link:hover {
     text-decoration: underline;
 }
 
@@ -779,18 +779,9 @@ img {
     text-align: center;
 }
 
-.text__main {
-    font-size: 36px;
-    line-height: 46px;
-    font-weight: 600;
-    color: #242f51;
-}
-
 .text__subtext {
     margin-top: 33px;
-    font-size: 16px;
     line-height: 26px;
-    font-weight: 400;
     color: #616368;
 }
 
@@ -871,9 +862,6 @@ img {
 
 .head__subname {
     margin-top: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #999ca5;
 }
 
 .price {
@@ -885,10 +873,7 @@ img {
 .body-of-card {
     text-align: center;
     margin-top: 13px;
-    font-size: 16px;
     line-height: 48px;
-    font-weight: 400;
-    color: #999ca5;
 }
 
 .body-of-card__text {
@@ -902,12 +887,12 @@ img {
 }
 
 .under-btn {
+    display: block;
     text-align: center;
 }
 
 
-
-.copyright{
+.copyright {
     margin-top: 91px;
     font-weight: 400;
     color: #ffffff;
