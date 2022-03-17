@@ -724,7 +724,7 @@ header {
 /*endregion*/
 /*region Reviews block*/
 
-.Reviews {
+.reviews {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -732,14 +732,14 @@ header {
     width: 1600px;
 }
 
-.Reviews-images {
+.reviews-images {
     background-image: url(../img/mans.png);
     height: 630px;
     width: 825px;
     margin: 30px 0 0 0;
 }
 
-.Reviews-content {
+.reviews-content {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -747,17 +747,17 @@ header {
     width: 600px;
 }
 
-.Reviews-content-head {
+.reviews-content-head {
     display: flex;
     flex-direction: column;
     margin: 0 0 45px 0;
 }
 
-.Reviews-content-head-name {
+.reviews-content-head-name {
     font-size: 40px;
 }
 
-.Reviews-content-stars {
+.reviews-content-stars {
     font-size: 20px;
     color: #ffcc00;
 }
@@ -766,39 +766,39 @@ header {
     color: #242F51;
 }
 
-.Reviews-content-inf {
+.reviews-content-inf {
     display: flex;
     flex-direction: column;
     margin: 30px 0 50px 0;
 }
 
-.Reviews-content-inf-name {
+.reviews-content-inf-name {
     color: #242F51;
     margin: 0 0 25px 0;
 }
 
-.Reviews-content-person {
+.reviews-content-person {
     display: flex;
     flex-direction: row;
 }
 
-.Reviews-content-person-info {
+.reviews-content-person-info {
     display: flex;
     flex-direction: column;
     margin: 20px 185px 10px 30px;
 }
 
-.Reviews-content-person-info-name {
+.reviews-content-person-info-name {
     color: #242F51;
     font-size: 18px;
 }
 
-.Reviews-content-person-info-position {
+.reviews-content-person-info-position {
     color: #616368;
     font-size: 18px;
 }
 
-.Reviews-content-person-buttons {
+.reviews-content-person-buttons {
     display: flex;
     flex-direction: row;
     width: 120px;
@@ -806,7 +806,7 @@ header {
     margin: 25px 0 0 0;
 }
 
-.Reviews-content-person-button {
+.reviews-content-person-button {
     border: 2px solid #DEE1E6;
     height: 50px;
     width: 50px;
@@ -815,24 +815,24 @@ header {
     transition: all .3s;
 }
 
-.Reviews-content-person-button-arrow {
+.reviews-content-person-button-arrow {
     color: #DEE1E6;
     transition: all .3s;
 }
 
-.Reviews-content-person-buttons-line {
+.reviews-content-person-buttons-line {
     height: 26px;
     border-left: 2px solid rgba(231, 231, 231, 1);
     width: 2px;
     margin: 15px 8px 15px 8px;
 }
 
-.Reviews-content-person-button:hover .Reviews-content-person-button-arrow {
+.reviews-content-person-button:hover .reviews-content-person-button-arrow {
     color: #2500F9;
     transition: all .3s;
 }
 
-.Reviews-content-person-button:hover {
+.reviews-content-person-button:hover {
     background-color: rgba(239, 243, 248, 1);
     transition: all .3s;
 }
@@ -890,7 +890,7 @@ header {
 /*endregion*/
 /*region Download block*/
 
-.Download {
+.download {
     display: flex;
     flex-direction: column;
     width: 1380px;
@@ -902,22 +902,22 @@ header {
     margin: 15px 0 0 230px;
 }
 
-.Download-head {
+.download-head {
     display: flex;
     flex-direction: column;
     margin: 80px 0 50px 0;
 }
 
-.Download-head-name {
+.download-head-name {
     font-size: 48px;
 }
 
-.Download-buttons {
+.download-buttons {
     display: flex;
     flex-direction: row;
 }
 
-.Download-button {
+.download-button {
     margin: 0 30px 0 5px;
     background: white;
 }
