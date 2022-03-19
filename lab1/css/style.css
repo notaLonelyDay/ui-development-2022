@@ -578,8 +578,10 @@ header {
 
 .checkbox {
     position: relative;
-    width: 100%;
+    left: 50%;
+    width: 50%;
     height: 100%;
+    border-radius: 100px;
     opacity: 0;
     cursor: pointer;
     z-index: 3;
@@ -602,6 +604,7 @@ header {
     z-index: 3;
     transition: all .3s;
     font-weight: 700;
+    user-select: none;
 }
 
 .condition-annually {
@@ -609,6 +612,7 @@ header {
     z-index: 3;
     transition: all .3s;
     font-weight: 400;
+    user-select: none;
 }
 
 .conditions:before {
@@ -639,6 +643,10 @@ header {
 .checkbox:checked + .conditions .condition-annually {
     color: white;
     font-weight: 700;
+}
+
+.checkbox:checked {
+    left: 0;
 }
 
 .cards {
