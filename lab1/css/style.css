@@ -8,7 +8,6 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -24,11 +23,6 @@ a:active {
 
 button {
     cursor: pointer;
-}
-
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
 }
 
 a {
