@@ -8,7 +8,6 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -17,18 +16,8 @@
     outline: none;
 }
 
-a:focus,
-a:active {
-    outline: none;
-}
-
 button {
     cursor: pointer;
-}
-
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
 }
 
 a {
@@ -578,7 +567,8 @@ header {
 
 .checkbox {
     position: relative;
-    width: 100%;
+    left: 50%;
+    width: 50%;
     height: 100%;
     opacity: 0;
     cursor: pointer;
@@ -602,6 +592,7 @@ header {
     z-index: 3;
     transition: all .3s;
     font-weight: 700;
+    user-select: none;
 }
 
 .condition-annually {
@@ -609,6 +600,7 @@ header {
     z-index: 3;
     transition: all .3s;
     font-weight: 400;
+    user-select: none;
 }
 
 .conditions:before {
@@ -639,6 +631,10 @@ header {
 .checkbox:checked + .conditions .condition-annually {
     color: white;
     font-weight: 700;
+}
+
+.checkbox:checked {
+    left: 0;
 }
 
 .cards {
@@ -857,34 +853,65 @@ header {
     line-height: 58px;
 }
 
-.FAQ-big-block {
-    background-color: #f5f7fa;
-    height: 255px;
-    width: 945px;
-    padding: 50px 0 0 50px;
-}
-
-.FAQ-big-block-name {
-    color: #242f51;
-    margin: 0 0 35px 0;
-}
-
 .FAQ-block {
     background-color: #f5f7fa;
-    height: 65px;
     width: 945px;
-    padding: 0 40px 0 50px;
+    padding: 50px 40px 80px 50px;
     margin: 10px 0 0 0;
+    transition: all .5s;
+    position: relative;
+}
+
+.hidden {
+    padding: 25px 40px 20px 50px;
+}
+
+.FAQ-block-head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 35px 0;
+    transition: inherit;
+    cursor: auto;
 }
 
-.FAQ-block-text {
+.hidden > .FAQ-block-head {
+    margin: 0;
+    cursor: pointer;
+}
+
+.FAQ-block-head-name {
     color: #242f51;
     font-weight: 400;
     margin: 0;
+    transition: inherit;
+}
+
+/*.hidden > .FAQ-bFAQ-block-head > .FAQ-block-head-name {*/
+/*    font-weight: 400;*/
+/*}*/
+
+.FAQ-block-head-icon {
+    transition: inherit;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+.hidden > .FAQ-block-head > .FAQ-block-head-icon {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.FAQ-block-text {
+    opacity: 1;
+    height: 70px;
+    transition: inherit;
+}
+
+.hidden > .FAQ-block-text {
+    opacity: 0;
+    height: 0;
 }
 
 /*endregion*/
