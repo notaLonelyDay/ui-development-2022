@@ -1,4 +1,3 @@
-
 const blocks = document.querySelectorAll(".FAQ-block");
 
 blocks.forEach(function (item) {
@@ -34,4 +33,24 @@ function getCookie(name) {
         "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
     ));
     return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function openModal() {
+    var modal = document.getElementById("video-modal");
+    var iframe = document.getElementById("video");
+
+    // Display window & autoplay
+    modal.style.display = "block";
+    iframe.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+}
+
+function closeModal(event) {
+    var modal = document.getElementById("video-modal");
+    var iframe = document.getElementById("video");
+
+    if (event.target !== iframe) {
+        // Hide window & remove source (including autoplaying)
+        modal.style.display = "none";
+        iframe.src = "";
+    }
 }

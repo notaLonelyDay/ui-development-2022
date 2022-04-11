@@ -314,7 +314,41 @@ header {
     margin-top: 40px;
 }
 
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    margin: 5% auto;
+    height: 713px;
+    width: 1268px;
+    display: flex;
+}
+
+.close-span {
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.close-span:hover,
+.close-span:focus {
+    color: black;
+    cursor: pointer;
+}
+
 #watch {
+    cursor: pointer;
     margin-left: 27px;
 }
 

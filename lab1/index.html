@@ -43,7 +43,16 @@
             <button id="try-btn-2" class="big-blue-button home-button">
                 Try for free
             </button>
-            <a href="#" id="watch" class="link blue-link">Watch demo video</a>
+            <div id="video-modal" class="modal-container" onclick="closeModal(event)">
+                <div class="modal-content">
+                    <iframe id="video" width="1268" height="713"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay;"
+                            allowfullscreen></iframe>
+                    <span class="close-span" onclick="closeModal(event)">&times;</span>
+                </div>
+            </div>
+            <a id="watch" class="link blue-link" onclick="openModal()">Watch demo video</a>
         </div>
         <div class="phone">
             <img src="img/phone.png" alt="phone">
