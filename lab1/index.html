@@ -6,104 +6,69 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <title>AppLab</title>
+    <title>Document</title>
 </head>
 <body>
 
-<header id="home">
+<div class="home">
     <div class="home-header">
-        <a href="#" class="home-header-logo logo">
-            App<span class="logo-header-Lab">Lab</span>
-        </a>
-        <div class="menu home-menu">
-            <a href="#home" class="link">Home</a>
-            <a href="#features" class="link">Key Features</a>
-            <a href="#pricing" class="link">Pricing</a>
-            <a href="#testiminal" class="link">Testiminal</a>
-            <a href="#FAQ" class="link">FAQ</a>
+        <div class="AppLab">
+            App<span class="Lab">Lab</span>
         </div>
-        <button id="try-btn-1" class="big-blue-button home-button">
-            Try for free
-        </button>
+        <div class="menu">
+            <a>Home</a>
+            <a>Key Features</a>
+            <a>Pricing</a>
+            <a>Testiminal</a>
+            <a>FAQ</a>
+        </div>
+        <input id="try-btn-1" class="blue-btn" type="button" value="Try for free">
     </div>
     <div class="home-body">
         <div class="home-text">
             <div class="edit-choice">
-                <div class="yellow-circle-small">
-                    <i class="fa fa-check-circle-o fa-lg" aria-hidden="true" style="color: #ffffff"></i>
-                </div>
+                <div class="yellow-circle-small"></div>
                 <div class="edit-text">#1 Editiors Choice App of 2020</div>
             </div>
-            <h1 class="best-app">Best app for your<br> modern lifestyle</h1>
+            <h1>Best app for your<br> modern lifestyle</h1>
             <p class="inc-prod">Increase productivity with a simple to-do app. app for<br> managing your personal
                 budgets.</p>
-            <button id="try-btn-2" class="big-blue-button home-button">
-                Try for free
-            </button>
-            <div id="video-modal" class="modal-container" onclick="closeModal(event)">
-                <div class="modal-content">
-                    <iframe id="video" width="1268" height="713"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay;"
-                            allowfullscreen></iframe>
-                    <span class="close-span" onclick="closeModal(event)">&times;</span>
-                </div>
-            </div>
-            <a id="watch" class="link blue-link" onclick="openModal()">Watch demo video</a>
-        </div>
-        <div class="phone">
-            <img src="img/phone.png" alt="phone">
-            <button class="orange-button phone-button">
-                Continue
-            </button>
-        </div>
-    </div>
-</header>
+            <input id="try-btn-2" class="blue-btn" type="button" value="Try for free">
+            
+            <script src="script/modal.js"></script>
+            <script src="script/index.js"></script>
 
-<div class="companies">
-    <p class="companies-text">
-        Trusted by companies like
-    </p>
-    <div class="companies-images">
-        <img src="img/southmest.png" alt="Southmest company">
-        <img src="img/anubis.png" alt="Anubis entertainment">
-        <img src="img/alonzo.png" alt="Alonzo casseta">
-        <img src="img/express.png" alt="Premium express">
-        <img src="img/maniac.png" alt="Maniac">
+            <a id="watch">Watch demo video</a>
+        </div>
+        <img src="img/phone.png" class="phone">
     </div>
 </div>
 
-<div id="features" class="features">
+<div class="features">
 
-    <div class="features-image">
-        <img src="img/SmartPhoneFeatures.png" alt="SmartPhoneFeatures">
-        <button class="orange-button features-image-button">
-            Continue
-        </button>
-    </div>
+    <img src="img/SmartPhoneFeatures.png" alt="SmartPhoneFeatures">
+    <div class="features_text">
 
-    <div class="features-text">
-
-        <div class="features-text-head">
+        <div class="features_text_head">
             <h2>
                 Awesome apps <br>
                 features
             </h2>
             <p>
-                Increase productivity with a simple to-do app. app for <br>
+                Increate productivity with a simple to-do app. app for <br>
                 managing your personal budgets.
             </p>
         </div>
 
-        <div class="features-text-block">
-            <div class="circle pink-circle circle-right-margin">
+        <div class="features_text_block">
+            <div class="circle pink_circle circle_right_margin">
                 <img src="img/speed.png" alt="speed">
             </div>
             <div>
-                <h3 class="red-text">
+                <h3 class="red_text">
                     Fast Perfomance
                 </h3>
                 <p>
@@ -114,12 +79,12 @@
             </div>
         </div>
 
-        <div class="features-text-block">
-            <div class="circle light-blue-circle circle-right-margin">
+        <div class="features_text_block">
+            <div class="circle light_blue_circle circle_right_margin">
                 <img src="img/prototyping.png" alt="prototyping">
             </div>
             <div>
-                <h3 class="blue-text">
+                <h3 class="blue_text">
                     Prototyping
                 </h3>
                 <p>
@@ -130,12 +95,12 @@
             </div>
         </div>
 
-        <div class="features-text-block">
-            <div class="circle light-green-circle circle-right-margin">
+        <div class="features_text_block">
+            <div class="circle light_green_circle circle_right_margin">
                 <img src="img/vector.png" alt="vector">
             </div>
             <div>
-                <h3 class="green-text">
+                <h3 class="green_text">
                     Vector Editing
                 </h3>
                 <p>
@@ -150,26 +115,26 @@
 </div>
 
 <div class="smart">
-    <div class="smart-head">
-        <h2 class="smart-head-name">
+    <div class="smart_head">
+        <h2 class="smart_head_name">
             Smart jackpots that <br>
             you may love this <br>
             anytime & anywhere
         </h2>
-        <div class="smart-head-line"></div>
-        <p class="smart-head-text">
+        <div class="smart_head_line"></div>
+        <p class="smart_head_text">
             The rise of mobile devices transforms the way we <br>
             consume information entirely and the world's most <br>
             elevant channels such as Facebook.
         </p>
     </div>
-    <div class="smart-text">
+    <div class="smart_text">
 
-        <div class="smart-text-box">
-            <div class="circle pink-circle circle-bottom-margin">
+        <div class="smart_text_box">
+            <div class="circle pink_circle circle_bottom_margin">
                 <img src="img/bill.png" alt="bill">
             </div>
-            <h3 class="red-text">
+            <h3 class="red_text">
                 Automatic Payouts
             </h3>
             <p>
@@ -179,11 +144,11 @@
             </p>
         </div>
 
-        <div class="smart-text-box">
-            <div class="circle light-blue-circle circle-bottom-margin">
+        <div class="smart_text_box">
+            <div class="circle light_blue_circle circle_bottom_margin">
                 <img src="img/network.png" alt="network">
             </div>
-            <h3 class="blue-text">
+            <h3 class="blue_text">
                 Network Effect
             </h3>
             <p>
@@ -193,11 +158,11 @@
             </p>
         </div>
 
-        <div class="smart-text-box">
-            <div class="circle light-green-circle circle-bottom-margin">
-                <img src="img/badge.png" alt="badge">
+        <div class="smart_text_box">
+            <div class="circle light_green_circle circle_bottom_margin">
+                <img src="img/badge.png" alt="bange">
             </div>
-            <h3 class="green-text">
+            <h3 class="green_text">
                 Automatic Payouts
             </h3>
             <p>
@@ -210,8 +175,8 @@
 </div>
 
 <div class="designed">
-    <img src="img/DesignedImage.png" alt="DesignedImage" class="designed-image">
-    <div class="designed-text">
+    <img src="img/DesignedImage.png" alt="DesignedImage" class="designed_image">
+    <div class="designed_text">
         <h2>
             Designed & built by <br>
             the latest code <br>
@@ -222,16 +187,16 @@
             consume information entirely and the world's most <br>
             elevant channels such as Facebook.
         </p>
-        <button class="big-blue-button designed-button">
+        <button class="big_blue_button designed_button">
             Learn more
         </button>
     </div>
 </div>
 
-<div class="long-line"></div>
+<div class="long_line"></div>
 
 <div class="why">
-    <div class="why-head">
+    <div class="why_head">
         <h2>
             Why you should choose <br>
             our app
@@ -241,10 +206,10 @@
             and the world's most elevant channels such as Facebook.
         </p>
     </div>
-    <div class="why-row">
+    <div class="why_row">
 
-        <div class="why-row-block">
-            <div class="circle pink-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle pink_circle circle_bottom_margin">
                 <img src="img/web-design.png" alt="web-design">
             </div>
             <h3>
@@ -257,8 +222,8 @@
             </p>
         </div>
 
-        <div class="why-row-block">
-            <div class="circle light-green-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle light_green_circle circle_bottom_margin">
                 <img src="img/trophy.png" alt="trophy">
             </div>
             <h3>
@@ -271,8 +236,8 @@
             </p>
         </div>
 
-        <div class="why-row-block">
-            <div class="circle yellow-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle yellow_circle circle_bottom_margin">
                 <img src="img/computer.png" alt="computer">
             </div>
             <h3>
@@ -286,10 +251,10 @@
         </div>
 
     </div>
-    <div class="why-row">
+    <div class="why_row">
 
-        <div class="why-row-block">
-            <div class="circle light-green-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle light_green_circle circle_bottom_margin">
                 <img src="img/customer-support.png" alt="customer-support">
             </div>
             <h3>
@@ -302,8 +267,8 @@
             </p>
         </div>
 
-        <div class="why-row-block">
-            <div class="circle grey-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle grey_circle circle_bottom_margin">
                 <img src="img/ui.png" alt="ui">
             </div>
             <h3>
@@ -316,8 +281,8 @@
             </p>
         </div>
 
-        <div class="why-row-block">
-            <div class="circle pink-circle circle-bottom-margin">
+        <div class="why_row_block">
+            <div class="circle pink_circle circle_bottom_margin">
                 <img src="img/customer-service.png" alt="customer-service">
             </div>
             <h3>
@@ -334,9 +299,9 @@
 </div>
 
 <div class="ultimate">
-    <div class="ultimate-text">
+    <div class="ultimate_text">
 
-        <div class="ultimate-text-head">
+        <div class="ultimate_text_head">
             <h2>
                 Ultimate features <br>
                 that we built
@@ -347,10 +312,10 @@
             </p>
         </div>
 
-        <div class="ultimate-text-row">
+        <div class="ultimate_text_row">
 
-            <div class="ultimate-text-row-box">
-                <div class="circle pink-circle circle-bottom-margin">
+            <div class="ultimate_text_row_box">
+                <div class="circle pink_circle circle_bottom_margin">
                     <img src="img/web-design.png" alt="web-design">
                 </div>
                 <h3>
@@ -363,8 +328,8 @@
                 </p>
             </div>
 
-            <div class="ultimate-text-row-box">
-                <div class="circle light-green-circle circle-bottom-margin">
+            <div class="ultimate_text_row_box">
+                <div class="circle light_green_circle circle_bottom_margin">
                     <img src="img/ui.png" alt="ui">
                 </div>
                 <h3>
@@ -379,10 +344,10 @@
 
         </div>
 
-        <div class="ultimate-text-row">
+        <div class="ultimate_text_row">
 
-            <div class="ultimate-text-row-box">
-                <div class="circle yellow-circle circle-bottom-margin">
+            <div class="ultimate_text_row_box">
+                <div class="circle yellow_circle circle_bottom_margin">
                     <img src="img/computer.png" alt="computer">
                 </div>
                 <h3>
@@ -395,8 +360,8 @@
                 </p>
             </div>
 
-            <div class="ultimate-text-row-box">
-                <div class="circle grey-circle circle-bottom-margin">
+            <div class="ultimate_text_row_box">
+                <div class="circle grey_circle circle_bottom_margin">
                     <img src="img/customer-service.png" alt="customer-service">
                 </div>
                 <h3>
@@ -411,107 +376,132 @@
 
         </div>
 
-        <button class="big-blue-button ultimate-text-button">
+        <button class="big_blue_button ultimate_text_button">
             See all
         </button>
 
     </div>
-    <div class="ultimate-image">
-        <img src="img/UltimatePhoneImage.png" alt="UltimatePhoneImage">
-        <button class="pink-button ultimate-image-button">Get Started</button>
+    <img src="img/UltimatePhoneImage.png" alt="UltimatePhoneImage">
+</div>
+
+<div class="wrapper">
+    <div class="container">
+        <div class="text">
+            <div class="text__main">
+                Get awesome features, without <br> extra charges
+            </div>
+            <div class="text__subtext">
+                The rise of mobile devices transforms the way we consume information entirely <br>and the world's most
+                elevant channels such as Facebook.
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="mon">
+                Monthly
+            </button>
+            <button class="ann">
+                Annually
+            </button>
+        </div>
+        <div class="cards">
+            <div class="cards__first">
+                <div class="head">
+                    <div class="head__pay">
+                        <span class="price">$0</span>/ month
+                    </div>
+                    <div class="head__name">
+                        Business Class
+                    </div>
+                    <div class="head__subname">
+                        For small teams or office
+                    </div>
+                </div>
+                <div class="body-of-card">
+                    <ul class="body-of-card__text">
+                        <li>Drag & Drop Builder</li>
+                        <li>1,000's of Templates</li>
+                        <li>Blog Support Tools</li>
+                        <li>eCommerce Store</li>
+                    </ul>
+                    <button class="body-of-card__btn">
+                        <div class="text-of-btn">
+                            Start free trail
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="cards__second">
+                <div class="head">
+                    <div class="head__pay">
+                        <span class="price">$99</span>/ month
+                    </div>
+                    <div class="head__name">
+                        Pro Master
+                    </div>
+                    <div class="head__subname">
+                        For Best opportunities
+                    </div>
+                </div>
+                <div class="body-of-card">
+                    <ul class="body-of-card__text">
+                        <li>Drag & Drop Builder</li>
+                        <li>1,000's of Templates</li>
+                        <li>Blog Support Tools</li>
+                        <li>eCommerce Store</li>
+                    </ul>
+                    <button class="body-of-card__btn" data-toggle="modal">
+                        <div class="text-of-btn">
+                            Subscribe Now
+                        </div>
+                    </button>
+
+                    <!--<script>
+                        var modal = $modal({
+                            title: 'Текст заголовка',
+                            content: '<p>Содержимое модального окна...</p>',
+                            footerButtons: [
+                            { class: 'btn btn__cancel', text: 'Отмена', handler: 'modalHandlerCancel' },
+                            { class: 'btn btn__ok', text: 'ОК', handler: 'modalHandlerOk' }
+                            ]
+                        }); 
+                        document.addEventListener('click', function(e) {
+                            if (e.target.dataset.toggle === 'modal') {
+                                modal.show();
+                            }
+                        });
+
+                        $.modal = function(options) {
+                            const $modal = _CreateModal(options);
+                            return {
+                                open() {},
+                                close() {},
+                                destroy() {}
+                            };
+                        };
+                    </script>-->
+                </div>
+                <div class="under-btn">
+                    Or Start 14 days trail
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div id="pricing" class="pricing">
-    <div class="text">
-        <h2>Get awesome features, without <br> extra charges</h2>
-        <div class="text-subtext">
-            The rise of mobile devices transforms the way we consume information entirely <br>and the world's most
-            elevant channels such as Facebook.
-        </div>
-    </div>
+<div class="Reviews">
 
-    <div class="toggle-button-border">
-        <div class="toggle-button">
-            <input type="checkbox" class="checkbox">
-            <div class="conditions">
-                <span class="condition-monthly">Monthly</span>
-                <span class="condition-annually">Annually</span>
-            </div>
-        </div>
-    </div>
+    <div class="Reviews-images"></div>
 
-    <div class="cards">
-        <div class="cards-first">
-            <div class="head">
-                <div class="head-pay">
-                    <span class="price">$0</span>/ month
-                </div>
-                <div class="head-name">
-                    Business Class
-                </div>
-                <div class="head-subname">
-                    For small teams or office
-                </div>
-            </div>
-            <div class="body-of-card">
-                <ul class="body-of-card-text">
-                    <li>Drag & Drop Builder</li>
-                    <li>1,000's of Templates</li>
-                    <li>Blog Support Tools</li>
-                    <li>eCommerce Store</li>
-                </ul>
-                <button class="big-blue-button body-of-card-btn">
-                    Start free trail
-                </button>
-            </div>
-        </div>
-        <div class="cards-second">
-            <div class="head">
-                <div class="head-pay">
-                    <span class="price">$99</span>/ month
-                </div>
-                <div class="head-name">
-                    Pro Master
-                </div>
-                <div class="head-subname">
-                    For Best opportunities
-                </div>
-            </div>
-            <div class="body-of-card">
-                <ul class="body-of-card-text">
-                    <li>Drag & Drop Builder</li>
-                    <li>1,000's of Templates</li>
-                    <li>Blog Support Tools</li>
-                    <li>eCommerce Store</li>
-                </ul>
-                <button class="big-blue-button body-of-card-btn">
-                    Subscribe Now
-                </button>
-            </div>
-            <a href="#" class="blue-link link">
-                Or Start 14 days trail
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="long-line"></div>
-
-<div id="testiminal" class="reviews">
-
-    <div class="reviews-images"></div>
-
-    <div class="reviews-content">
-        <div class="reviews-content-head">
-            <h2 class="reviews-content-head-name">Meet Clients Satisfaction<br>by using product</h2>
+    <div class="Reviews-text-block">
+        <div class="Reviews-text-block-head">
+            <h2 class="Reviews-text-block-head-name">Meet Clients Satisfaction<br>by using product</h2>
             <p>
                 The rise of the mobile devices transforms the way we consume.<br>
                 elevant channels such as Facebook
             </p>
         </div>
 
-        <div class="reviews-content-stars">
+        <div class="Reviews-text-block-stars">
             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
@@ -519,8 +509,8 @@
             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
         </div>
 
-        <div class="reviews-content-inf">
-            <h3 class="reviews-content-inf-name">User friendly & Customizable</h3>
+        <div class="Reviews-text-block-inf">
+            <h3 class="Reviews-text-block-inf-name">User friendly & Customizable</h3>
             <p>
                 Bring to the table win-win survival strategies to ensure proactive domi-<br>
                 nation. At the end of the day, going forward, a new normal that has<br>
@@ -530,177 +520,128 @@
             </p>
         </div>
 
-        <div class="reviews-content-person">
+        <div class="Reviews-text-block-person">
             <img class="person" src="img/man8.png" alt="man">
 
-            <div class="reviews-content-person-info">
-                <h5 class="reviews-content-person-info-name">Zoltan Nemeth</h5>
-                <h5 class="reviews-content-person-info-position">CEO of Pixler Lab</h5>
+            <div class="Reviews-text-block-person-container">
+                <h5 class="Reviews-text-block-person-container-name">Zoltan Nemeth</h5>
+                <h5 class="Reviews-text-block-person-container-position">CEO of Pixler Lab</h5>
             </div>
 
-            <div class="reviews-content-person-buttons">
-                <button class="reviews-content-person-button">
-                    <i class="fa fa-long-arrow-left fa-lg reviews-content-person-button-arrow"
-                       aria-hidden="true"></i>
+            <div class="Reviews-text-block-person-buttons">
+                <button class="Reviews-text-block-person-button">
+                    <i class="fa fa-long-arrow-left fa-lg Reviews-text-block-person-button-arrow" aria-hidden="true"></i>
                 </button>
 
-                <div class="reviews-content-person-buttons-line"></div>
+                <div class="Reviews-text-block-person-buttons-line">
 
-                <button class="reviews-content-person-button">
-                    <i class="fa fa-long-arrow-right fa-lg reviews-content-person-button-arrow"
-                       aria-hidden="true"></i>
+                </div>
+
+                <button class="Reviews-text-block-person-button">
+                    <i class="fa fa-long-arrow-right fa-lg Reviews-text-block-person-button-arrow" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
     </div>
 </div>
 
-<div id="FAQ" class="FAQ">
+<div class="FAQ">
     <div class="FAQ-head">
         <h2 class="FAQ-head-name">
             Frequently asked questions
         </h2>
         <p>
-            The rise of the mobile devices transforms the way we
-            consume information entirely <br>
+            The rise of the mobile devices transforms the way we consume information entirely <br>
             and the world's most elevants channels such as Facebook.
         </p>
     </div>
 
-    <div class="FAQ-block hidden">
-        <div class="FAQ-block-head">
-            <h3 class="FAQ-block-head-name">
-                How to contact with riders emergency?
-            </h3>
-            <i class="fa fa-lg fa-plus FAQ-block-head-icon" aria-hidden="true"></i>
-        </div>
-        <p class="FAQ-block-text">
-            Leverage agile frameworks to provide a robust synopsis for
-            high level overviews. Iterative approaches<br>
-            to corporate strategy foster collaborative thinking to further
-            the overall value proposition. Organically<br>
-            grow the holistic world view of disruptive innovation via
-            workplace diversity and empowerment.
+    <div class="FAQ-big-block">
+        <h3 class="FAQ-big-block-name">
+            How to contact with riders emergency?
+        </h3>
+        <p>
+            Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches<br>
+            to corporate strategy foster collaborative thinking to further the overall value proposition.
+            Organically<br>
+            grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
         </p>
     </div>
 
-    <div class="FAQ-block hidden">
-        <div class="FAQ-block-head">
-            <h3 class="FAQ-block-head-name">
-                App install failed, how to update system information?
-            </h3>
-            <i class="fa fa-lg fa-plus FAQ-block-head-icon" aria-hidden="true"></i>
-        </div>
-        <p class="FAQ-block-text">
-            Leverage agile frameworks to provide a robust synopsis for
-            high level overviews. Iterative approaches<br>
-            to corporate strategy foster collaborative thinking to further
-            the overall value proposition. Organically<br>
-            grow the holistic world view of disruptive innovation via
-            workplace diversity and empowerment.
-        </p>
+    <div class="FAQ-block">
+        <h3 class="FAQ-block-text">
+            App install failed, how to update system information?
+        </h3>
+        <i class="fa fa-lg fa-plus" aria-hidden="true"></i>
     </div>
 
-    <div class="FAQ-block hidden">
-        <div class="FAQ-block-head">
-            <h3 class="FAQ-block-head-name">
-                Website reponse taking time, how to improve?
-            </h3>
-            <i class="fa fa-lg fa-plus FAQ-block-head-icon" aria-hidden="true"></i>
-        </div>
-        <p class="FAQ-block-text">
-            Leverage agile frameworks to provide a robust synopsis for
-            high level overviews. Iterative approaches<br>
-            to corporate strategy foster collaborative thinking to further
-            the overall value proposition. Organically<br>
-            grow the holistic world view of disruptive innovation via
-            workplace diversity and empowerment.
-        </p>
+    <div class="FAQ-block">
+        <h3 class="FAQ-block-text">
+            Website reponse taking time, how to improve?
+        </h3>
+        <i class="fa fa-lg fa-plus" aria-hidden="true"></i>
     </div>
 
-    <div class="FAQ-block hidden">
-        <div class="FAQ-block-head">
-            <h3 class="FAQ-block-head-name">
-                New update fixed all bug and issues
-            </h3>
-            <i class="fa fa-lg fa-plus FAQ-block-head-icon" aria-hidden="true"></i>
-        </div>
-        <p class="FAQ-block-text">
-            Leverage agile frameworks to provide a robust synopsis for
-            high level overviews. Iterative approaches<br>
-            to corporate strategy foster collaborative thinking to further
-            the overall value proposition. Organically<br>
-            grow the holistic world view of disruptive innovation via
-            workplace diversity and empowerment.
-        </p>
+    <div class="FAQ-block">
+        <h3 class="FAQ-block-text">
+            New update fixed all bug and issues
+        </h3>
+        <i class="fa fa-lg fa-plus" aria-hidden="true"></i>
     </div>
 
-    <div class="FAQ-block hidden">
-        <div class="FAQ-block-head">
-            <h3 class="FAQ-block-head-name">
-                How to contact with riders emergency?
-            </h3>
-            <i class="fa fa-lg fa-plus FAQ-block-head-icon" aria-hidden="true"></i>
-        </div>
-        <p class="FAQ-block-text">
-            Leverage agile frameworks to provide a robust synopsis for
-            high level overviews. Iterative approaches<br>
-            to corporate strategy foster collaborative thinking to further
-            the overall value proposition. Organically<br>
-            grow the holistic world view of disruptive innovation via
-            workplace diversity and empowerment.
-        </p>
+    <div class="FAQ-block">
+        <h3 class="FAQ-block-text">
+            How to contact with riders emergency?
+        </h3>
+        <i class="fa fa-lg fa-plus" aria-hidden="true"></i>
     </div>
-
 </div>
 
-<div class="long-line"></div>
-
-<div class="download">
-    <div class="download-head">
-        <h2 class="download-head-name">Download our App now !</h2>
+<div class="Download">
+    <div class="Download-head">
+        <h2 class="Download-head-name">Download our App now !</h2>
         <p>The rise of mobile devices transforms the way we consume information entirely<br>
             and the world's most elevant channels such as Facebook.</p>
     </div>
 
-    <div class="download-buttons">
-        <button class="download-button">
-            <img src="img/GooglePlay.png" alt="GooglePlay link">
+    <div class="Download-buttons">
+        <button class="Download-buttons-GooglePlay">
+            <img src="img/GooglePlay.png">
         </button>
 
-        <button class="download-button">
-            <img src="img/AppStore.png" alt="AppStore link">
+        <button class="Download-buttons-AppStore">
+            <img src="img/AppStore.png">
         </button>
     </div>
 </div>
 
-<footer>
-
-    <a href="#" class="logo">
-        App<span class="logo-footer-Lab">Lab</span>
-    </a>
-
-    <div class="menu footer-menu">
-        <a href="#home" class="link footer-link">Home</a>
-        <a href="#features" class="link footer-link">Key Features</a>
-        <a href="#pricing" class="link footer-link">Pricing</a>
-        <a href="#testiminal" class="link footer-link">Testiminal</a>
-        <a href="#FAQ" class="link footer-link">FAQ</a>
+<div class="footer">
+    <div class="AppLabFooter">
+        App<span class="LabFooter">Lab</span>
     </div>
-
-    <div class="footer-share-icons">
-        <a href="https://facebook.com"><i class="fa ci fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-        <a href="https://twitter.com"><i class="fa ci fa-brands fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://sharp.com"><i class="fa ci fa-solid fa-hashtag" aria-hidden="true"></i></a>
-        <a href="https://github.com"><i class="fa ci fa-brands fa-github-square" aria-hidden="true"></i></a>
+    <div class="ft_menu">
+        <div class="ft_mn_it">
+            Home
+        </div>
+        <div class="ft_mn_it">
+            Key Features
+        </div>
+        <div class="ft_mn_it">
+            Pricing
+        </div>
+        <div class="ft_mn_it">
+            Testiminial
+        </div>
+        <div class="ft_mn_it">
+            FAQ
+        </div>
     </div>
-    <p class="copyright">
-        Copyright© Arifur Rahman Tushar 2019. All rights reserved
-    </p>
-</footer>
-
+    <div class="centered_list share_icons">
+        <i class="fa ci fa-brands fa-facebook-f" aria-hidden="true"></i>
+        <i class="fa ci fa-brands fa-twitter" aria-hidden="true"></i>
+        <i class="fa ci fa-solid fa-hashtag" aria-hidden="true"></i>
+        <i class="fa ci fa-brands fa-github-square" aria-hidden="true"></i>
+    </div>
+</div>
 </body>
-
-<script src="script/script.js"></script>
-
 </html>
