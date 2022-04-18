@@ -82,6 +82,10 @@ function createModalForm() {
     let modalRegistration = document.createElement("div")
     modalRegistration.classList.add("modal-registration")
     document.body.append(modalRegistration);
+    modalRegistration.addEventListener("click", function (event) {
+        if (event.target === modalRegistration)
+            closeModalForm()
+    })
 
     let modalBorder = document.createElement("div")
     modalBorder.classList.add("modal-border")
