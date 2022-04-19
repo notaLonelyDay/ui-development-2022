@@ -109,7 +109,7 @@ function createModalForm() {
 
         let modalLabel = document.createElement("h3")
         modalLabel.classList.add("modal-label")
-        modalLabel.textContent = "Apply for registration"
+        modalLabel.textContent = "Submit for registration"
 
         let nameInput = document.createElement("input")
         with (nameInput) {
