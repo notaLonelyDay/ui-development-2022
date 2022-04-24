@@ -105,7 +105,7 @@ function createModalForm() {
     modalForm.append(form, closeButton)
 
     let isRegistered = getCookie("isRegistered")
-    if (isRegistered === undefined || isRegistered === "no"){
+    if (isRegistered === undefined || isRegistered === "no") {
 
         let modalLabel = document.createElement("h3")
         modalLabel.classList.add("modal-label")
@@ -209,6 +209,71 @@ function submitModalForm() {
 
 //endregion
 
+//region slider
+
+const reviews = [
+    {
+        name: "Zoltan Nemeth",
+        position: "CEO of Pixler Lab",
+        title: "User friendly & Customizable",
+        picture_src: "img/reviews-people/man2.png",
+        text: `Bring to the table win-win survival strategies to ensure proactive domi-<br>
+                nation. At the end of the day, going forward, a new normal that has<br>
+                evolved from generation X is on the runway heading towards a<br>
+                streamlined cloud solution. User generated content in real-time will<br>
+                have multiple touchpoints for offshoring.`,
+        stars: 5,
+    },
+    {
+        name: "Allah akbar",
+        position: "Head of Bulba",
+        title: "Really bad app",
+        picture_src: "img/reviews-people/man3.png",
+        text: `Shugarbelle is a sugar-free, gluten-free, dairy-free, egg-free, nut-free,\n" +
+            "and vegan-friendly snack that is made with the finest ingredients.`,
+        stars: 1,
+    },
+];
+
+function getReviewPos() {
+    return getCookie("reviewPos") ?? 0;
+}
+
+document.getElementById("slider-btn-left").addEventListener("click", function () {
+    let curPos = getReviewPos();
+    curPos--;
+    if (curPos < 0) curPos += reviews.length;
+    changeReview(curPos);
+});
+
+document.getElementById("slider-btn-right").addEventListener("click", function () {
+    let curPos = getReviewPos();
+    curPos++;
+    if (curPos >= reviews.length) curPos -= reviews.length;
+    changeReview(curPos);
+});
+changeReview(getReviewPos());
+
+function changeReview(pos) {
+    document.cookie = "reviewPos=" + pos;
+    let review = reviews[pos];
+    document.getElementById("slider-title").innerText = review.title;
+    document.getElementById("slider-picture").src = review.picture_src;
+    document.getElementById("slider-text").innerHTML = review.text;
+    document.getElementById("slider-name").innerText = review.name;
+    document.getElementById("slider-position").innerText = review.position;
+
+    // document.getElementById("review-stars").innerHTML = "";
+    for (let i = 0; i < 5; i++) {
+        let star = document.getElementById("slider-star-" + i);
+        if (i < review.stars)
+            star.style.display = "inline-block"
+        else
+            star.style.display = "none"
+    }
+}
+
+//endregion
 function getCookie(name) {
     let matches = document.cookie.match(new RegExp(
         "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"

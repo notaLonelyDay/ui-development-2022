@@ -776,6 +776,7 @@ header {
     justify-content: start;
     margin: 0 200px 0 0;
     width: 600px;
+    height: 600px;
 }
 
 .reviews-content-head {
@@ -801,22 +802,24 @@ header {
     display: flex;
     flex-direction: column;
     margin: 30px 0 50px 0;
+    height: 150px;
 }
 
-.reviews-content-inf-name {
+.reviews-content-title {
     color: #242F51;
     margin: 0 0 25px 0;
 }
 
 .reviews-content-person {
     display: flex;
+    width: 560px;
     flex-direction: row;
 }
 
 .reviews-content-person-info {
     display: flex;
     flex-direction: column;
-    margin: 20px 185px 10px 30px;
+    margin: 20px 0px 10px 30px;
 }
 
 .reviews-content-person-info-name {
@@ -831,10 +834,12 @@ header {
 
 .reviews-content-person-buttons {
     display: flex;
+    justify-content: right;
     flex-direction: row;
     width: 120px;
     height: 50px;
     margin: 25px 0 0 0;
+    margin-left: auto;
 }
 
 .reviews-content-person-button {
