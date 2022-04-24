@@ -1066,7 +1066,7 @@ footer {
     width: 400px;
     height: 360px;
     background-color: #fff;
-    padding: 30px;
+    padding: 30px 30px;
     border-radius: 10px;
 }
 
@@ -1087,10 +1087,11 @@ footer {
 }
 
 .modal-input {
+    font-family: 'Poppins', sans-serif;
     border: 1px solid #242f51;
     width: 100%;
     height: 50px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     border-radius: 10px;
     margin: 0 0 20px 0;
@@ -1119,9 +1120,10 @@ footer {
 }
 
 .success-message {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 50px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     color: green;
     text-align: center;
