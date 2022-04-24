@@ -952,6 +952,7 @@ header {
 .hidden > .FAQ-block-text {
     opacity: 0;
     height: 0;
+    overflow: hidden;
 }
 
 /*endregion*/
